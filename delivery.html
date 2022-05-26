@@ -46,8 +46,7 @@
       .holder {
         justify-content: center;
         align-content: center;
-        margin-left: 10px;
-        padding: 5px;
+      
       }
       .button {
         margin: 10px;
@@ -63,9 +62,14 @@
         justify-content: center;
         margin: 10px;
       }
-      
+      .button a:hover{
+        background-color: #818181;
+      }
       input {
-        height: 25px;
+        height: 30px;
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
       }
       .footer {
         background-color: #333;
@@ -94,8 +98,10 @@
         flex-wrap: nowrap;
         margin: 5px;
       }
-      .second:hover {
-        border: 2px solid darkgrey;
+    
+      #gen{
+        width:15px;
+        height: 15px;
       }
     </style>
   </head>
@@ -126,7 +132,7 @@
       <label for="gen">FEMALE</label>
       <input type="radio" name="gender" id="gen" />
   <label for="gen">MALE</label>
-      <input type="radio" name="gender" id="gender" /><br><BR>
+      <input type="radio" name="gender" id="gen"/><br><BR>
           <button type="submit"> SUBMIT</button>
         </form>
 
